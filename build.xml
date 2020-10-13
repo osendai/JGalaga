@@ -6,7 +6,7 @@
   <!-- Uncomment the following property if no tests compilation is needed -->
 
   <property name="skip.tests" value="true"/>
-  
+
 
   <!-- Compiler options -->
   
@@ -164,4 +164,6 @@
   <target name="build.modules" depends="init, clean, compile.module.galaga" description="build all modules"/>
   
   <target name="all" depends="build.modules" description="build all"/>
+
+  <target name="test"/>
 </project>
