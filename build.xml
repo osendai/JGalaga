@@ -4,10 +4,10 @@
   
   <property file="galaga.properties"/>
   <!-- Uncomment the following property if no tests compilation is needed -->
-  <!-- 
+
   <property name="skip.tests" value="true"/>
-   -->
   
+
   <!-- Compiler options -->
   
   <property name="compiler.debug" value="on"/>
