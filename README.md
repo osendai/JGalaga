@@ -1,8 +1,11 @@
 # JGalaga
-Java based game of Galaga for educational purposes.
-Still in early stages until I have more time to work on it.
+Java based game of Galaga.
 
-Some features I hope to accomplish:
+# Status
+[![Build Status](https://travis-ci.com/osendai/JGalaga.svg?branch=master)](https://travis-ci.com/osendai/JGalaga)
+
+# Features
+Will be updated as I work through the list
 - [ ] Main menu
 - [ ] Score board
 - [ ] Levels to advance through
@@ -14,3 +17,9 @@ Some features I hope to accomplish:
 - [ ] Background animations
 - [ ] Ship capture/Duel ships
 - [ ] Challenge levels
+
+# Installation
+
+# Credits
+
+# License
