@@ -14,7 +14,7 @@ public class PlayerShip extends Sprite {
 
     private int x = 300;
 
-    private int y = 710;
+    private final int y = 710;
 
     private int dx;
 
@@ -37,6 +37,9 @@ public class PlayerShip extends Sprite {
     }
 
     public void move() {
+        if ((x + dx) >= (700 - image.getWidth(null)) || (x + dx) <= 0){
+            dx = 0;
+        }
         x += dx;
     }
 
